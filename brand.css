@@ -1,0 +1,56 @@
+  *{
+    font-family: "Proxima Nova";
+    
+  }
+  body{
+    width:8.5in;
+    height:11in;
+    margin:0px;
+    padding:0px;
+  }
+  .logo {
+    height:33.5mm;
+    width:100mm; 
+  }
+  
+  .page {
+    border: 0.0625in solid #d3d3d3;
+    /* background-color:white; */
+    border-bottom: 0.22in solid #EFC219; 
+    box-sizing: border-box;
+  }
+  
+  .div {
+    display: inline-block;
+  }
+ 
+  .name {
+    font-size: 10px;
+    font-family: inherit;
+    color: #333333;
+  }
+  
+  .nickname {
+    font-size: 11px;
+    font-family: "Proxima Nova Alt Condensed";
+    color: #333333;
+  }
+  .heading{
+    font-family: "Proxima Nova";
+    text-align: center;
+    letter-spacing: 3pt;
+    font-weight:bold;
+    color: #8CC541;
+    font-size: 40px;
+  }
+  .subheading{
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    letter-spacing: 3pt;
+    font-weight: thin;
+    line-height: 0;
+    color:#8CC541;
+  }
+  .subheading.faculty, .heading.faculty{
+    color:#4290c7;
+  }

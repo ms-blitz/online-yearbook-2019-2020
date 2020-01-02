@@ -1,0 +1,186 @@
+/* All pages */
+body {
+  /* background-color: white; */
+}
+.logo{
+  /* margin-top:9mm;
+  margin-bottom: 10mm; */
+  margin-top:7mm;
+  margin-bottom: 8mm;
+}
+.printed-page{
+  counter-increment: page;
+}
+.cover, .blank{
+  counter-increment: page -1;
+}
+.page {
+  width: 7.5in;
+  height: 10in;
+  text-align: center;
+  /* counter-increment: page; */
+  position: relative;
+  top:0.5in;
+  margin-bottom:0.5in;
+  margin-top:0.5in;
+}
+.cover {
+  width: 8.5in;
+  height: 11in;
+  margin: 0in;
+}
+.blank{
+  width: 8.5in;
+  height: 11in;
+  margin: 0in;
+}
+
+
+div.page:after {
+  content: counter(page);
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  z-index: 999;
+  padding: 2px 0px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.div {
+  display: inline-block;
+}
+
+.person {
+  display: inline-block;
+  margin: 0px 8px 15px 8px;
+  vertical-align:top;
+}
+
+.portrait-img {
+  width: 1in;
+  height: 1.4in;
+  display: inline-block;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 3px;
+  width:100%; 
+  word-wrap: normal;
+}
+
+.nickname {
+  text-align: center;
+  height:10px;
+  font-weight: 600;
+  letter-spacing: 1pt;
+}
+
+.subheading {
+  margin-bottom: 45px;
+}
+
+/* Faculty Page */
+.faculty .portrait-img {
+  width: calc(3 * 0.24in); /*0.785in;*/
+  height: calc(4.2 * 0.24in);  /*1in;*/
+}
+.faculty .name{
+  font-size: 9px;
+}
+
+.person.faculty {
+  display: inline-block;
+  margin: 0px 3px 0px 3px;
+  vertical-align:top;
+}
+#not-pictured{
+  font-size:9px;
+  text-align:left;
+  display:inline-block;
+}
+#not-pictured h5{
+  margin:0px 0px 5px 0px; 
+}
+
+
+/* Senior Pages */
+
+.senior{
+    /*background-color:orange;*/
+  height: calc(1.4in + 40px);
+  width: 2.1in;
+  vertical-align: top;
+  margin-left: 0.13in;
+  margin-right: 0.13in;
+  margin-bottom: 0.1in;
+}
+.senior .name{
+  font-size:14pt;
+}
+
+.quote{
+  font-size:11pt;
+  float: right;
+  width: calc(1in - 6px);
+  padding: 2px 3px;
+  height: 1.35in;
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner{
+  background: radial-gradient(rgba(32,115,198,0.75),rgba(32,115,198,0.9));
+  color:white;
+  height: 14mm;
+  text-align: center;
+}
+.banner td{
+  height: 14mm;
+  vertical-align: middle;
+  text-align: center;
+  /* width:25vw; */
+}
+.banner table{
+  display:inline;
+}
+.odd{
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.even{
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+/* Intro Page */
+#intro-year {
+    /* display: inline-block; */
+    font-size: 80px;
+    padding-top: 120px;
+}
+
+#school {
+    height: 4.5in;
+    display: inline-block;
+    padding-top: .5in;
+}
+
+#intro {
+    font-size: 40px;
+    padding-top: 0.5in;
+}
+
+#town {
+    font-size: 30px;
+    margin-top: 20px;
+}
+/* Full page images */
+.fullpage-image{
+  width: calc(7.5in - 2*0.0625in);
+  z-index: -1;
+  position: relative;
+}
+.cover .fullpage-image{
+  width: 8.5in;
+}
