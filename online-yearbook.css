@@ -1,35 +1,128 @@
+body{
+  width:100%;
+  /* border:1px solid red; */
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/*  HEADER  */
 .topnav {
-width: 100%;
-overflow: hidden;
-background-color: #8CC541;
-text-align: center;    
+    width: 100%;
+    overflow: hidden;
+    background-color: #8CC541;
+    text-align: center;    
 }
 .topnav a {
-color: white;
-text-align: center;
-padding: 15px 20px;
-text-decoration: none;
-font-size: 17px;
-display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
 }
 .topnav a:hover {
-background-color: #EFC219;
-color: black;
+    background-color: #EFC219;
+    color: black;
 }
 .topnav a.active {
-background-color: #4CAF50;
-color: white;
+    background-color: #4CAF50;
+    color: white;
 }
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #EFC219;
-color: white;
-text-align: center;
-}
+
 #logo{
-text-align: center;
+    text-align: center;
 }
+
+.logo{
+  margin-top:7mm;
+  margin-bottom: 8mm;
+}
+/* END HEADER  */
+
+/* NEXT - PRVIOUS BUTTON */
+.prev, .next{
+      font-size:60pt;
+       color:#d3d3d3;
+       text-decoration:none;
+       position:fixed;
+       top:30vh;
+     }
+     .prev{
+      
+       left:0;
+      
+     }
+     .prev:hover, .next:hover{
+       color:#333333;
+     }
      
+     .next{
+       
+       right:0;
+       
+     }
+     
+/* END NEXT - PRVIOUS BUTTON */
+
+/* MAIN*/
+#main{
+    text-align: center;
+}
+/*END MAIN*/
+
+/* Intro Page */
+#intro-year {
+    /* display: inline-block; */
+    font-size: 80px;
+    padding-top: 120px;
+}
+
+#school {
+    height: 4.5in;
+    display: inline-block;
+    padding-top: .5in;
+}
+
+#intro {
+    font-size: 40px;
+    padding-top: 0.5in;
+}
+
+#town {
+    font-size: 30px;
+    margin-top: 20px;
+}
+/* END Intro Page */
+
+/* Full page images */
+.fullpage-image{
+  width: calc(7.5in - 2*0.0625in);
+  z-index: -1;
+  position: relative;
+}
+.cover .fullpage-image{
+  width: 8.5in;
+}
+/* END Full page images */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #EFC219;
+    color: white;
+    text-align: center;
+}
+/* END FOOTER */
