@@ -98,8 +98,10 @@ body{
 /* Full page images */
 .fullpage-image{
   width: calc(7.5in - 2*0.0625in);
-  z-index: -1;
+  /* z-index: -1; */
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 .cover .fullpage-image{
   width: 8.5in;
