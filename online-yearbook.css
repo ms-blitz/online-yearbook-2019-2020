@@ -1,18 +1,20 @@
-body{
-  width:100%;
-  /* border:1px solid red; */
-  margin-left:auto;
-  margin-right:auto;
+body {
+    width: 100%;
+    /* border:1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 /*  HEADER  */
+
 .topnav {
     width: 100%;
     overflow: hidden;
     background-color: #8CC541;
-    text-align: center;    
+    text-align: center;
 }
+
 .topnav a {
     color: white;
     text-align: center;
@@ -21,57 +23,71 @@ body{
     font-size: 17px;
     display: inline-block;
 }
+
 .topnav a:hover {
     background-color: #EFC219;
     color: black;
 }
+
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-#logo{
+#logo {
     text-align: center;
 }
 
-.logo{
-  margin-top:7mm;
-  margin-bottom: 8mm;
+.logo {
+    margin-top: 7mm;
+    margin-bottom: 8mm;
 }
+
+
 /* END HEADER  */
 
+
 /* NEXT - PRVIOUS BUTTON */
-.prev, .next{
-      font-size:60pt;
-       color:#d3d3d3;
-       text-decoration:none;
-       position:fixed;
-       top:30vh;
-     }
-     .prev{
-      
-       left:0;
-      
-     }
-     .prev:hover, .next:hover{
-       color:#333333;
-     }
-     
-     .next{
-       
-       right:0;
-       
-     }
-     
+
+.prev,
+.next {
+    font-size: 60pt;
+    color: #d3d3d3;
+    text-decoration: none;
+    position: fixed;
+    top: 30vh;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover,
+.next:hover {
+    color: #333333;
+}
+
+.next {
+    right: 0;
+}
+
+
 /* END NEXT - PRVIOUS BUTTON */
 
+
 /* MAIN*/
-#main{
+
+#main {
     text-align: center;
+    padding: 60px;
 }
+
+
 /*END MAIN*/
 
+
 /* Intro Page */
+
 #intro-year {
     /* display: inline-block; */
     font-size: 80px;
@@ -93,31 +109,39 @@ body{
     font-size: 30px;
     margin-top: 20px;
 }
+
+
 /* END Intro Page */
 
+
 /* Full page images */
-.fullpage-image{
-  width: calc(7.5in - 2*0.0625in);
-  /* z-index: -1; */
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 70px;
+
+.fullpage-image {
+    width: calc(7.5in - 2*0.0625in);
+    /* z-index: -1; */
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
-.cover .fullpage-image{
-  width: 8.5in;
+
+.cover .fullpage-image {
+    width: 8.5in;
 }
+
+
 /* END Full page images */
 
 
+/* FACULTY PAGE */
 
-
-
-
-
-
+#faculty-photos {
+    max-width: 800px;
+    display: inline-block;
+}
 
 
 /* FOOTER */
+
 .footer {
     position: fixed;
     left: 0;
@@ -127,4 +151,6 @@ body{
     color: white;
     text-align: center;
 }
+
+
 /* END FOOTER */
