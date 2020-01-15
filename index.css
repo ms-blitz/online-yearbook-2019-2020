@@ -1,54 +1,48 @@
-body {
-    background-color: white;
-}
 .directory {
   display: inline-block;
-  margin: 0px 8px 15px 8px;
-  vertical-align:top;
-  width:10in;
-  border:5px solid white;
-  Height:11in; 
-  margin:20px;
-  text-align:center;
+  margin: 15px 8px 15px 8px;
+  vertical-align: top;
+  text-align: center;
 }
 
 .icon {
-    display: inline-block;
-    margin: 0px 8px 15px 8px;
-    vertical-align:top;
-    background-color:#d3d3d3;
-    text-align:center;
-    width: 175px;
-    border: 5px solid white;
-    Height:175px; 
-    margin: 10px;
-    padding:45px;
-}
-.icon:hover {
-  background-color:#8cc541; 
-}
-.directory-name {
-  text-align: center;
-  margin-bottom: 3px;
-  width:100%; 
-  word-wrap: normal;
+  display: inline-block;
 }
 
 .icon a {
-    color:black;
-    text-decoration:none;
+  display: inline-block;
+  margin: 0px 8px 15px 8px;
+  padding: 20px;
+  vertical-align: top;
+  background-color: #d3d3d3;
+  text-align: center;
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
 }
 
-.heading-directory { 
-color:#2073c6;
-text-align:center;
+.icon a:hover {
+  background-color: #8cc541;
 }
 
-.introduction-index {
-  width:7.5in;
-  Height:8.5;
-  text-align:center;
-  padding-left:70px;
-  padding-top:30px;
-  padding-right:70px;
+.icon img {
+  height: 160px;
+}
+
+.directory-name {
+  text-align: center;
+  margin: 5px;
+  width: 100%;
+  word-wrap: normal;
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1pt;
+}
+
+#introduction-img {
+  width: 100%;
+  max-width: 725px;
 }
