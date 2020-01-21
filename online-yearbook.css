@@ -243,6 +243,14 @@ body {
   margin-bottom: 45px;
 }
 
+.student-not-pictured{
+  border: 1px solid #8CC541;
+  
+  width: 100px;
+  height: 140px;
+  display: inline-block;
+}
+
 /* PORTRAITS */
 
 /* SENIORS PAGE */
